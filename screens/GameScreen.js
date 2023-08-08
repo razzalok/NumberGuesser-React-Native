@@ -1,10 +1,10 @@
 
-import {StyleSheet, View } from 'react-native'
+import {StyleSheet, View, Text } from 'react-native'
 
-const GameScreen = () => {
+const GameScreen = ({userNumber}) => {
   return (
     <View>
-      
+      <Text>Game Screen! {userNumber}</Text>
     </View>
   )
 }
